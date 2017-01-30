@@ -63,6 +63,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         Log.d("yOLO",r.toString());
         if(r.code==200){
             Toast.makeText(this, "Vous êtes connecté ! ", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(LoginActivity.this, ChannelListActivity.class);
+            startActivity(intent);
+
 
         }
         else{

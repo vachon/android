@@ -38,7 +38,8 @@
         android:layout_alignLeft="@+id/edMdp"
         android:layout_alignStart="@+id/edMdp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:text="nvach" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -49,7 +50,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignLeft="@+id/btnValidate"
-        android:layout_alignStart="@+id/btnValidate" />
+        android:layout_alignStart="@+id/btnValidate"
+        android:text="nicolasvachon" />
 
     <Button
         android:layout_width="wrap_content"
